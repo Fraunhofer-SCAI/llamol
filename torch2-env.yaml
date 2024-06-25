@@ -1,0 +1,29 @@
+name: torch2-llamol
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - torchaudio
+  - pytorch
+  - torchvision
+  - pytorch-cuda
+  - rdkit
+  - ca-certificates
+  - certifi
+  - openssl
+  - openbabel
+  - ipykernel
+pip:
+  - tqdm
+  - transformers
+  - pandas
+  - matplotlib
+  - seaborn
+  - hydra-core
+  - swifter
+  - pyarrow
+  - ipywidgets
+  - dask
